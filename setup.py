@@ -13,11 +13,11 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
-        "Development Status :: 1 - Alpha",
+        "Development Status :: 3 - Alpha",
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],
-    url="https://github.com/judy2k/helloworld",
+    url="https://github.com/YameenV/graphicswithpython.git",
     author="Yameen Vinchu, Ashutosh Upadayeah",
     author_email="yameenvinchu38@gmail.com, ashutosh.aku.aau@gmail.com",
 
