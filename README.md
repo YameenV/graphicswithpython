@@ -12,7 +12,7 @@
 
   ![output of bresenhams algorith](https://media.tenor.com/images/a37051dc07d5568d7aae2311f9d21264/tenor.gif)
   ![output of bresenhams algorith](https://media.tenor.com/images/39fef84a82257c5772cf11ab47e9df03/tenor.gif)
-  ![output of bresenhams algorith](https://media.tenor.com/images/27096e3dc7c5b878e1b880ab7fd8fe50/tenor.gif)
+  ![output of bresenhams algorith](https://media.tenor.com/images/34f3a3acc453b5e4cff7865be2c00372/tenor.gif)
   
 
 # Installation
@@ -357,7 +357,7 @@ For Online IDE
       
   delay(5000)     # make window visible more 5 sec after execution completes
   ``` 
-  ![output of bresenhams algorith](/gif/floodfill-circle.gif)
+  ![output of bresenhams algorith](https://media.tenor.com/images/a37051dc07d5568d7aae2311f9d21264/tenor.gif)
 
 - ## Boundary Fill 
   > Boundary fill is the algorithm used frequently in computer graphics to fill a desired color inside a closed polygon having the same boundary color for all of its sides.
@@ -426,7 +426,7 @@ For Online IDE
     delay(5000)     # make window visible more 5 sec after execution completes
 
   ```
-  ![output of bresenhams algorith](https://media.tenor.com/images/27096e3dc7c5b878e1b880ab7fd8fe50/tenor.gif)
+  ![output of bresenhams algorith](https://media.tenor.com/images/34f3a3acc453b5e4cff7865be2c00372/tenor.gif)
   
 
 
