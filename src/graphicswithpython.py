@@ -17,8 +17,11 @@ def window(width:int, height:int):
 	global win
 	win = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
-def putpixel(xcordinates:int, ycordinates:int, color:str):
-	gfxdraw.pixel(win,xcordinates, ycordinates, color)
+def putpixel(xcordinates:int, ycordinates:int, color:str, intensity:Optional[int] = None):
+	if intensity != None:
+		pygame.draw.line(win, color, (xcordinates,ycordinates),(xcordinates,ycordinates), intensity)
+	else:
+		gfxdraw.pixel(win, xcordinates, ycordinates,color)
 	pygame.display.update()
 
 def getpixel(xcordinates:int, ycordinates:int) -> tuple:
@@ -107,6 +110,10 @@ def dda(x1:int, y1:int, x2:int, y2:int, DDatype:str, color:tuple):
 			putpixel(round(x), round(y), color)
 			print(f"Xinc == {x}    Yinc == {y}")
 
+		if selectedType == 2:
+			putpixel(round(x), round(y), color, 2)
+			print(f"Xinc == {x}    Yinc == {y}")
+
 		if selectedType == 3:
 			if (i % 4 == 0):
 				putpixel(round(x), round(y), color)
@@ -131,6 +138,7 @@ def bresenhams(x1:int, y1:int, x2:int, y2:int, bresenhamstype:str, color:tuple):
 	for type ,value in types.items():
 		if bresenhamstype.lower() == type:
 			selectedType = value
+	
 		
 	dx = abs(x2 - x1)
 	dy = abs(y2 - y1)
@@ -157,6 +165,10 @@ def bresenhams(x1:int, y1:int, x2:int, y2:int, bresenhamstype:str, color:tuple):
 			putpixel(round(x), round(y), color)
 			print(f"Xinc == {x}    Yinc == {y}")
 
+		if selectedType == 2:
+			putpixel(round(x), round(y), color, 2)
+			print(f"Xinc == {x}    Yinc == {y}")
+
 		if selectedType == 3:
 			if (i % 4 == 0):
 				putpixel(x, y, color)
@@ -176,7 +188,8 @@ def midpointcircle(radius:int, xcenter:int, ycenter:int, midpointtype:str, color
 		"line":1,
 		"solid":2,
 		"dotted":3,
-		"dash":4
+		"dash":4,
+		"dottedandline":5
 	}
 	for type ,value in types.items():
 		if midpointtype.lower() == type:
@@ -202,6 +215,16 @@ def midpointcircle(radius:int, xcenter:int, ycenter:int, midpointtype:str, color
 			putpixel( xcenter-y, ycenter+x, color)
 			putpixel( xcenter-y, ycenter-x, color)
 
+		if selectedType == 2:
+			putpixel( xcenter+x, ycenter+y, color,2)
+			putpixel( xcenter+x, ycenter-y, color,2)
+			putpixel( xcenter-x, ycenter+y, color,2)
+			putpixel( xcenter-x, ycenter-y, color,2)
+			putpixel( xcenter+y, ycenter+x, color,2)
+			putpixel( xcenter+y, ycenter-x, color,2)
+			putpixel( xcenter-y, ycenter+x, color,2)
+			putpixel( xcenter-y, ycenter-x, color,2)
+
 		if selectedType == 3: 
 			if (i % 4 == 0):
 				putpixel( xcenter+x, ycenter+y, color)
@@ -223,6 +246,10 @@ def midpointcircle(radius:int, xcenter:int, ycenter:int, midpointtype:str, color
 				putpixel( xcenter+y, ycenter-x, color)
 				putpixel( xcenter-y, ycenter+x, color)
 				putpixel( xcenter-y, ycenter-x, color)
+
+		if selectedType == 5:
+			dottedandline(xcenter, ycenter,x,y, color)
+
 		
 		if(p < 0):
 			x = x+1
@@ -285,4 +312,70 @@ def floodfill(xcenter:int, ycenter:int, backgroundcolor:tuple, newcolor:tuple, s
 
 		else: 
 			return "plz enter seed as 4 or 8"
+
+def boundaryfill(xcenter:int, ycenter:int, bordercolor:tuple, newcolor:tuple, seeds:int, radius:Optional[int] = None):
+		if seeds in [4,8]:
+			tofill = set()
+			tofill.add((xcenter,ycenter))
+			while len(tofill) > 0:
+				(x,y) = tofill.pop()
+				a =  getpixel(x,y)
+				if a != bordercolor and a != newcolor:
+					if radius != None:
+						if pointInCircle(xcenter,ycenter,radius, x,y) == True:
+							if seeds == 4:
+								putpixel(x,y,newcolor)
+								tofill.add((x-1,y))
+								tofill.add((x+1,y))
+								tofill.add((x,y-1))
+								tofill.add((x,y+1))
+							else:
+								putpixel(x,y,newcolor)
+								tofill.add((x-1,y))
+								tofill.add((x+1,y))
+								tofill.add((x,y-1))
+								tofill.add((x,y+1))
+								tofill.add((x-1,y-1))
+								tofill.add((x-1,y+1))
+								tofill.add((x+1,y-1))
+								tofill.add((x+1,y+1))
+					else:
+						if seeds == 4:
+							putpixel(x,y,newcolor)
+							tofill.add((x-1,y))
+							tofill.add((x+1,y))
+							tofill.add((x,y-1))
+							tofill.add((x,y+1))
+						else:
+							putpixel(x,y,newcolor)
+							tofill.add((x-1,y))
+							tofill.add((x+1,y))
+							tofill.add((x,y-1))
+							tofill.add((x,y+1))
+							tofill.add((x-1,y-1))
+							tofill.add((x-1,y+1))
+							tofill.add((x+1,y-1))
+							tofill.add((x+1,y+1))
+
+		else: 
+			return "plz enter seed as 4 or 8"
+
+def dottedandline(xcenter:int, ycenter:int, x:int, y:int, colors:str):
+	for i in range(0, x):
+		if i%2 == 1:
+			putpixel( xcenter+x, ycenter+y, color("black"))
+			putpixel( xcenter+y, ycenter+x, color("black"))
+			putpixel( xcenter-y, ycenter-x, color("black"))
+			putpixel( xcenter-x, ycenter-y, color("black"))
+
+		else:
+			putpixel( xcenter+x, ycenter+y, colors)
+			putpixel( xcenter+y, ycenter+x, colors)
+			putpixel( xcenter-y, ycenter-x, colors)
+			putpixel( xcenter-x, ycenter-y, colors)
+
+		putpixel( xcenter+x, ycenter-y, colors)
+		putpixel( xcenter-x, ycenter+y, colors)
+		putpixel( xcenter+y, ycenter-x, colors)
+		putpixel( xcenter-y, ycenter+x, colors)
 

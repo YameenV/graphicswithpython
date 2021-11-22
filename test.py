@@ -1,7 +1,8 @@
-from graphicswithpython import dda, window, delay, color
-
+from graphicswithpython import window, midpointcircle, bresenhams, delay, color
 window(600,600)
+midpointcircle(100,300,300,"dottedandline",color("red"))
+a =color("white")
+print(a)
 
-dda(100,100,500,500,"dash",color("red"))
 
 delay(5000)
