@@ -10,9 +10,9 @@
 ## Overview
  > Graphic With Python (GWP) is a user-friendly and simpler way to practise and imply Computer Graphic Concept . It is better then graphics.h as GWP is faster & easy to implement. The Aim for this library is to make Computer Graphic Visualization easier and understandable by providing Fuction for each Method and support.
 
-  ![output of bresenhams algorith](/gif/floodfill-circle.gif)
-  ![output of bresenhams algorith](/gif/brexenhams3.gif)
-  ![output of bresenhams algorith](/gif/boundaryfill.gif)
+  ![output of bresenhams algorith](https://media.tenor.com/images/a37051dc07d5568d7aae2311f9d21264/tenor.gif)
+  ![output of bresenhams algorith](https://media.tenor.com/images/39fef84a82257c5772cf11ab47e9df03/tenor.gif)
+  ![output of bresenhams algorith](https://media.tenor.com/images/27096e3dc7c5b878e1b880ab7fd8fe50/tenor.gif)
   
 
 # Installation
@@ -249,7 +249,7 @@ For Online IDE
    delay(5000)     # make window visible more 5 sec after execution completes
 
    ```
-  ![output of bresenhams algorith](/gif/brexenhams3.gif)
+  ![output of bresenhams algorith](https://media.tenor.com/images/39fef84a82257c5772cf11ab47e9df03/tenor.gif)
    
 
    
@@ -291,7 +291,7 @@ For Online IDE
   
     delay(5000)     # make window visible more 5 sec after execution completes
   ```
-  ![output of bresenhams algorith](/gif/midpoint3.gif)
+  ![output of bresenhams algorith](https://media.tenor.com/images/0ee1a34757c1d1df9939ca4054945419/tenor.gif)
 - ## FloodFill  
   >Flood fill, also called seed fill, is an algorithm that determines and alters the area connected to a given node in a multi-dimensional array with some matching attribute.
   
@@ -426,7 +426,7 @@ For Online IDE
     delay(5000)     # make window visible more 5 sec after execution completes
 
   ```
-  ![output of bresenhams algorith](/gif/boundaryfill.gif)
+  ![output of bresenhams algorith](https://media.tenor.com/images/27096e3dc7c5b878e1b880ab7fd8fe50/tenor.gif)
   
 
 
