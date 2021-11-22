@@ -262,7 +262,7 @@ For Online IDE
   |    radius    |                             radius of circle                              |
   |   xcenter    |                     x-coordinate for center of circle                     |
   |   ycenter    |                     y-coordinate for center of circle                     |
-  | midpointtype | type of midpoint circle needed => LINE , Dash, solid, Dotted, DashandLine |
+  | midpointtype | type of midpoint circle needed => LINE , Dash, solid, Dotted, DottedandLine |
   |    color     |                 color() function is required (rgb tuple )                 |
   
   #### Parament for Midpointcircle
