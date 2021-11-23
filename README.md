@@ -489,17 +489,17 @@ For Online IDE
       
 - # Author 
   ## Maintainers :
-  - ## [`Yameen Vinchu`](www.github.com/YameenV)   
-    connect me at [Linkedin](www.linkedin/in/yameen-vinchu-58408522)
+  - ## [`Yameen Vinchu`](https://www.github.com/YameenV)   
+    connect me at [Linkedin](https://www.linkedin/in/yameen-vinchu-58408522)
   
-  - ## [`Ashutosh Upadhyay`](www.github.com/Ashutosh-upadhya)
-    get in touch @ [Linkedin](www.linkedin.com/ashutoshupadhyay78) 
+  - ## [`Ashutosh Upadhyay`](https://www.github.com/Ashutosh-upadhya)
+    get in touch @ [Linkedin](https://www.linkedin.com/ashutoshupadhyay78) 
 
 
 
   ## Contributer :
-  [Yameen Vinchu](www.github.com/YameenV)  
-  [Ashutosh Upadhyay](www.github.com/Ashutosh-upadhya)
+  [Yameen Vinchu](https://www.github.com/YameenV)  
+  [Ashutosh Upadhyay](https://www.github.com/Ashutosh-upadhya)
 
 <!-- ##### Get in touch -->
 <!-- - `Yameen Vinchu` 
