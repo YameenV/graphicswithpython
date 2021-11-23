@@ -19,10 +19,16 @@
 
 #### Prerequisite                                                              
 
-> Python 3.6 +                     
->VS Code / IDE / Replit
+> [Python 3.6 +](https://www.python.org/downloads/)                     
+> IDE / [Replit](https://replit.com)
 
-### There are two methods to installation and using this library. 
+
+IDE's like ([VScode](https://code.visualstudio.com/download) , [Pycharm](https://www.jetbrains.com/pycharm/download) , etc)
+
+ 
+
+
+## There are two methods to installation and using this library. 
 
 For Local Machine / IDE's
 ```python
@@ -249,7 +255,7 @@ For Online IDE
    delay(5000)     # make window visible more 5 sec after execution completes
 
    ```
-  ![output of bresenhams algorith](https://media.tenor.com/images/39fef84a82257c5772cf11ab47e9df03/tenor.gif)
+   ![output of bresenhams algorith](https://media.tenor.com/images/39fef84a82257c5772cf11ab47e9df03/tenor.gif)
    
 
    
@@ -262,7 +268,7 @@ For Online IDE
   |    radius    |                             radius of circle                              |
   |   xcenter    |                     x-coordinate for center of circle                     |
   |   ycenter    |                     y-coordinate for center of circle                     |
-  | midpointtype | type of midpoint circle needed => LINE , Dash, solid, Dotted, DottedandLine |
+  | midpointtype | type of midpoint circle needed => LINE , Dash, solid, Dotted, DashandLine |
   |    color     |                 color() function is required (rgb tuple )                 |
   
   #### Parament for Midpointcircle
@@ -358,7 +364,6 @@ For Online IDE
   delay(5000)     # make window visible more 5 sec after execution completes
   ``` 
   ![output of bresenhams algorith](https://media.tenor.com/images/a37051dc07d5568d7aae2311f9d21264/tenor.gif)
-
 - ## Boundary Fill 
   > Boundary fill is the algorithm used frequently in computer graphics to fill a desired color inside a closed polygon having the same boundary color for all of its sides.
 
@@ -481,4 +486,26 @@ For Online IDE
   | Boundary Fill 8 seed Rectangle  | It fill a desired color inside a closed Rectangle having the same boundary color for all of its sides using 8 seeds.  |
   | Boundary Fill 8 seed Circle     | It fill a desired color inside a closed Circle having the same boundary color for all of its sides using 8 seeds.     |
   		
+      
+- # Author 
+  ## Maintainers :
+  - ## [`Yameen Vinchu`](www.github.com/YameenV)   
+    connect me at [Linkedin](www.linkedin/in/yameen-vinchu-58408522)
   
+  - ## [`Ashutosh Upadhyay`](www.github.com/Ashutosh-upadhya)
+    get in touch @ [Linkedin](www.linkedin.com/ashutoshupadhyay78) 
+
+
+
+  ## Contributer :
+  [Yameen Vinchu](www.github.com/YameenV)  
+  [Ashutosh Upadhyay](www.github.com/Ashutosh-upadhya)
+
+<!-- ##### Get in touch -->
+<!-- - `Yameen Vinchu` 
+- [Linkedin](https://www.linkedin.com/yameen-vinchu-58408522)
+- [github](www.github.com/YameenV)
+    
+- `Ashutosh Upadhyay`
+- [Linkedin](www.linkedin.com/ashutoshupadhyay78)
+- [github](www.github.com/Ashutosh-upadhya) -->

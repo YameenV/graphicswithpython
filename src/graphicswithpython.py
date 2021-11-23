@@ -14,8 +14,10 @@ def window(width:int, height:int):
 	pygame.init()
 	SCREEN_WIDTH = width 
 	SCREEN_HEIGHT = height
+
 	global win
 	win = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+	pygame.display.set_caption('GraphicswithPython')
 
 def putpixel(xcordinates:int, ycordinates:int, color:str, intensity:Optional[int] = None):
 	if intensity != None:
