@@ -25,18 +25,24 @@
 
 IDE's like ([VScode](https://code.visualstudio.com/download) , [Pycharm](https://www.jetbrains.com/pycharm/download) , etc)
 
- 
-
-
 ## There are two methods to installation and using this library. 
 
 For Local Machine / IDE's
+### Step 1
+```python
+   # Check wheather the python and pip are installed
+   python --version
+   pip --version
+```
+### Step 2
 ```python
    pip install GraphicswithPython
 ```
 For Online IDE
 
- -  visit here  www.replit.com
+ - Visit here  www.replit.com
+ - Make an account 
+ - Create a new repl for python 
  - Go to shell and enter
 ```python
     pip install GraphicswithPython
