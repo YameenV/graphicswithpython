@@ -490,10 +490,10 @@ For Online IDE
 - # Author 
   ## Maintainers :
   - ## [`Yameen Vinchu`](https://www.github.com/YameenV)   
-    connect me at [Linkedin](https://www.linkedin/in/yameen-vinchu-58408522)
+    connect me at [Linkedin](https://www.linkedin.com/in/yameen-vinchu-584085221/)
   
   - ## [`Ashutosh Upadhyay`](https://www.github.com/Ashutosh-upadhya)
-    get in touch @ [Linkedin](https://www.linkedin.com/ashutoshupadhyay78) 
+    connect me at [Linkedin](https://www.linkedin.com/in/ashutoshupadhyay78) 
 
 
 
