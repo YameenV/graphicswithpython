@@ -69,7 +69,7 @@ For Online IDE
   > Graphicswithpython supports rgb color. So to make this easy just pass a string of color example `red` and it will return rgb tuple value
 
   ##### Parameter 
-      color("color") supported color for now are black, grey, red, white, blue, green, yellow
+      color("color") supported color for now are black, grey, red, white, blue, green, yellow, orange, purple
   ### Examples
   ```python
   from GraphicswithPython import color

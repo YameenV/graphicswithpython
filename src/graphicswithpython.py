@@ -66,10 +66,12 @@ def color(color:str) -> tuple:
 	colors = {"black":(0, 0, 0), 
 			 "gray":(127, 127, 127),
 			 "white":(255, 255, 255),
-			 "red":(255, 0, 0),
+			 "red":(238, 75, 43),
 			 "green":(0, 255, 0),
-			 "blue":(0, 0, 255),
-			 "yellow":(255, 255, 0)
+			 "blue":((135, 206, 235)),
+			 "yellow":(255, 255, 0),
+			 "orange":(255, 165, 0),
+			 "purple":(191, 64, 191)
 			 }
 	for colorkey, rgbcolor in colors.items():
 		if color.lower() == colorkey:
