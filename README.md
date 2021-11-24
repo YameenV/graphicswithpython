@@ -220,8 +220,8 @@ For Online IDE
   dda(400,400,500,500, "dotted", color("blue"))
   
   delay(5000)     # make window visible more 5 sec after execution completes
-  
   ```
+  ![output of bresenhams algorith](https://media.tenor.com/images/1cc266605f8a2b68712a70dd313602da/tenor.gif)
   
 - ## Breshham
 
@@ -303,7 +303,7 @@ For Online IDE
   
     delay(5000)     # make window visible more 5 sec after execution completes
   ```
-  ![output of bresenhams algorith](https://media.tenor.com/images/0ee1a34757c1d1df9939ca4054945419/tenor.gif)
+  ![output of bresenhams algorith](https://media.tenor.com/images/30d962a2902187b05ba502e789ec077c/tenor.gif)
 - ## FloodFill  
   >Flood fill, also called seed fill, is an algorithm that determines and alters the area connected to a given node in a multi-dimensional array with some matching attribute.
   
