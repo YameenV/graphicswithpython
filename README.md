@@ -10,9 +10,9 @@
 ## Overview
  > Graphic With Python (GWP) is a user-friendly and simpler way to practise and imply Computer Graphic Concept . It is better then graphics.h as GWP is faster & easy to implement. The Aim for this library is to make Computer Graphic Visualization easier and understandable by providing Fuction for each Method and support.
 
-  ![output of bresenhams algorith](https://media.tenor.com/images/a37051dc07d5568d7aae2311f9d21264/tenor.gif)
+  ![output of floodfill algorith](https://media.tenor.com/images/a37051dc07d5568d7aae2311f9d21264/tenor.gif)
   ![output of bresenhams algorith](https://media.tenor.com/images/39fef84a82257c5772cf11ab47e9df03/tenor.gif)
-  ![output of bresenhams algorith](https://media.tenor.com/images/34f3a3acc453b5e4cff7865be2c00372/tenor.gif)
+  ![output of boundaryfill algorith](https://media.tenor.com/images/34f3a3acc453b5e4cff7865be2c00372/tenor.gif)
   
 
 # Installation
@@ -221,7 +221,7 @@ For Online IDE
   
   delay(5000)     # make window visible more 5 sec after execution completes
   ```
-  ![output of bresenhams algorith](https://media.tenor.com/images/1cc266605f8a2b68712a70dd313602da/tenor.gif)
+  ![output of bresenhams algorith](https://media.tenor.com/images/e49b7ff168026a1057c1c439fadea5be/tenor.gif)
   
 - ## Breshham
 
@@ -303,7 +303,7 @@ For Online IDE
   
     delay(5000)     # make window visible more 5 sec after execution completes
   ```
-  ![output of bresenhams algorith](https://media.tenor.com/images/30d962a2902187b05ba502e789ec077c/tenor.gif)
+  ![output of bresenhams algorith](https://media.tenor.com/images/2538a6b276cb738599653ee964840486/tenor.gif)
 - ## FloodFill  
   >Flood fill, also called seed fill, is an algorithm that determines and alters the area connected to a given node in a multi-dimensional array with some matching attribute.
   
