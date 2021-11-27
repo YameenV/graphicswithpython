@@ -10,9 +10,10 @@
 ## Overview
  > Graphic With Python (GWP) is a user-friendly and simpler way to practise and imply Computer Graphic Concept . It is better then graphics.h as GWP is faster & easy to implement. The Aim for this library is to make Computer Graphic Visualization easier and understandable by providing Fuction for each Method and support.
 
-  ![output of floodfill algorith](https://media.tenor.com/images/a37051dc07d5568d7aae2311f9d21264/tenor.gif)
-  ![output of bresenhams algorith](https://media.tenor.com/images/39fef84a82257c5772cf11ab47e9df03/tenor.gif)
-  ![output of boundaryfill algorith](https://media.tenor.com/images/34f3a3acc453b5e4cff7865be2c00372/tenor.gif)
+  ![output of floodfill algorith](https://bit.ly/3lcZK1g)
+  ![output of bresenhams algorith](https://bit.ly/3FOkzaY)
+  ![output of bresenhams algorith](https://bit.ly/3p7y66D)
+  ![output of boundaryfill algorith](https://bit.ly/3HRA5Vv)
   
 
 # Installation
@@ -221,8 +222,9 @@ For Online IDE
   
   delay(5000)     # make window visible more 5 sec after execution completes
   ```
-  ![output of bresenhams algorith](https://media.tenor.com/images/e49b7ff168026a1057c1c439fadea5be/tenor.gif)
-  
+  <!-- ![output of bresenhams algorith](https://media.tenor.com/images/e49b7ff168026a1057c1c439fadea5be/tenor.gif) -->
+  ![ashutsh](gif/dda2%20(1).gif)
+
 - ## Breshham
 
    >Bresenham's line algorithm is a line drawing algorithm that determines the points of an n-dimensional raster that should be selected in order to form a close approximation to a straight line between two points.
@@ -242,26 +244,28 @@ For Online IDE
        bresenham(x1: int, y1: int, x2: int, y2: int, bresenhamstype: str, color: tuple)
    
     ### Examples
-   ```python
-   from graphicswithpython import bresenhams, window,delay,color
-   window(700,700)         #first make window to get output there
-   
-   # Breshham  Line  
-   bresenhams(100,100,200,200,"line",color("green")) 
-
-   #Breshham  Line Dash
-   bresenhams(300,300,400,400,"dash",color("yellow"))
-
-   #Breshham  Line Solid
-   bresenhams(400,400,500,500,"solid",color("red"))
-
-   #Breshham  Line dotted 
-   bresenhams(500,500,600,600,"dotted",color("white"))
-
-   delay(5000)     # make window visible more 5 sec after execution completes
-
-   ```
-   ![output of bresenhams algorith](https://media.tenor.com/images/39fef84a82257c5772cf11ab47e9df03/tenor.gif)
+    ```python
+    from graphicswithpython import bresenhams, window,delay,color
+    window(700,700)         #first make window to get output there
+    
+    
+    # Breshham  Line  
+    bresenhams(200,200,300,300,"line",color("green")) 
+    
+    #Breshham  Line Dash
+    bresenhams(300,300,400,400,"dash",color("yellow"))
+    
+    #Breshham  Line Solid
+    bresenhams(400,400,500,500,"solid",color("red"))
+    
+    #Breshham  Line dotted 
+    bresenhams(500,500,600,600,"dotted",color("white"))
+    
+    
+    delay(5000)     # make window visible more 5 sec after execution completes
+    ```
+   <!-- ![output of bresenhams algorith](https://media.tenor.com/images/39fef84a82257c5772cf11ab47e9df03/tenor.gif)  -->
+   ![bresanhams](https://bit.ly/3FOkzaY)
    
 
    
@@ -283,27 +287,29 @@ For Online IDE
     ```python
   from graphicswithpython import  window, delay, color, midpointcircle
   
-    window(700,700)         #first make window to get output there
+  window(700,700)         #first make window to get output there
   
-    # Midpoint  Circle Line  
-    midpointcircle(50,100,100,"line",color("red"))
+  # Midpoint  Circle Line  
+  midpointcircle(70,200,200,"line",color("red"))
   
-    # Midpoint Circle Dash 	
-    midpointcircle(50,200,200,"dash",color("green"))
+  # Midpoint Circle Dash 	
+  midpointcircle(70,400,200,"dash",color("green"))
   
+  # Midpoint Circle Dotted 		   
+  midpointcircle(70,200,400,"dotted",color("white"))
   
-    # Midpoint Circle Solid
-    midpointcircle(50,300,300,"solid",color("white"))
+  # Midpoint Circle Solid
+  midpointcircle(70,400,400,"solid",color("blue"))
   
-    # Midpoint Circle Dotted 		   
-    midpointcircle(50,400,400,"dotted",color("blue"))
+  # Midpoint Circle Dash and Normal
+  midpointcircle(60,300,300,"dottedandline",color("yellow"))
   
-    # Midpoint Circle Dash and Normal
-    midpointcircle(50,500,500,"dashandline",color("white"))
+  delay(2000)     # make window visible more 5 sec after execution completes
   
-    delay(5000)     # make window visible more 5 sec after execution completes
   ```
-  ![output of bresenhams algorith](https://media.tenor.com/images/2538a6b276cb738599653ee964840486/tenor.gif)
+  <!-- ![output of bresenhams algorith](https://media.tenor.com/images/2538a6b276cb738599653ee964840486/tenor.gif) -->
+  <!-- ![midpoint](gif/midpoint2%20(1).gif) -->
+  ![midpoint](https://bit.ly/3p7y66D)
 - ## FloodFill  
   >Flood fill, also called seed fill, is an algorithm that determines and alters the area connected to a given node in a multi-dimensional array with some matching attribute.
   
@@ -347,29 +353,28 @@ For Online IDE
   ```
    ### Examples (for 8 seed)
   ```python
-  from graphicswithpython import floodfill, window, delay, color, circle, rectangle, polygon 
+  from graphicswithpython import floodfill, window, delay, color, circle, rectangle,triangle
   
   window(700,700)         #first make window to get output there
   
-  #  FloodFill 8 seed Circle
-  circle(100,100,40,color("red"))       
-  floodfill(100,100,backgroundcolor=color("black"),newcolor=color("green"),seeds=8,radius=40)  # Must specify radius in Circle only.      
-    
-  # FloodFill 8 seed Square 
-  rectangle(200,300,100,100,color("blue"))
-  floodfill(210,310,backgroundcolor=color("black"),newcolor=color("green"),seeds=8)
-    
-  # FloodFill 8 seed polygon	
-  polygon(points=((500,100),(500,200),(600,200),(630,150),(600,100)),color="red")
-  floodfill(530,150,backgroundcolor=color("black"),newcolor=color("green"),seeds=8)
-    
-  # FloodFill 8 seed Rectangle
-  rectangle(350,550,140,100,color("red"))   
-  floodfill(400,600,backgroundcolor=color("black"),newcolor=color("green"),seeds=8)
+  #first draw object 
+  circle(390,348,50,color("purple"))      
+  triangle(325,410,270,500,380,500,color("yellow"))
+  rectangle(200,300,100,100,color("red"))
+  rectangle(250,350,140,100,color("white")) 
+  
+  #Flood Fill with 8 seed
+  floodfill(210,310,backgroundcolor=color("black"),newcolor=color("green"),seeds=8)  # upper rectangle
+  floodfill(390,348,backgroundcolor=color("black"),newcolor=color("green"),seeds=8,radius=49)    #circle  *(MUST SPECIFY RADIUS IN CIRCLE ONLY)
+  floodfill(315,380,backgroundcolor=color("black"),newcolor=color("green"),seeds=4)   # middle Rectangle (Here 4 seed is done , as it consist of inner circle ) 
+  floodfill(325,470,backgroundcolor=color("black"),newcolor=color("green"),seeds=8)   # triangle
       
   delay(5000)     # make window visible more 5 sec after execution completes
+  
   ``` 
-  ![output of bresenhams algorith](https://media.tenor.com/images/a37051dc07d5568d7aae2311f9d21264/tenor.gif)
+  <!-- ![output of bresenhams algorith](https://media.tenor.com/images/a37051dc07d5568d7aae2311f9d21264/tenor.gif) -->
+  ![floodfill](https://bit.ly/3HRA5Vv)
+
 - ## Boundary Fill 
   > Boundary fill is the algorithm used frequently in computer graphics to fill a desired color inside a closed polygon having the same boundary color for all of its sides.
 
@@ -414,30 +419,27 @@ For Online IDE
 
   ### Examples (for 8 seed)
   ```python
-  from graphicswithpython import boundaryfill, window,delay,color , circle ,rectangle,polygon 
-
-    window(700,700)         #first make window to get output there
-
-    #  boundaryfill 8 seed Circle
-    circle(100,100,40,color("red"))       
-    boundaryfill(100,100,bordercolor=color("red"),newcolor=color("green"),seeds=8,radius=40) # Must specify radius in 8 seed only.     
-
-    # boundaryfill 8 seed Square 
-    rectangle(200,300,100,100,color("blue"))
-    boundaryfill(210,310,bordercolor=color("blue"),newcolor=color("green"),seeds=8)
-
-    # boundaryfill 8 seed polygon	
-    polygon(points=((500,100),(500,200),(600,200),(630,150),(600,100)),color="red")
-    boundaryfill(530,150,bordercolor=color("red"),newcolor=color("green"),seeds=8)
-
-    # boundaryfill 8 seed Rectangle
-    rectangle(350,550,140,100,color("white"))   
-    boundaryfill(400,600,bordercolor=color("white"),newcolor=color("green"),seeds=8)
-
-    delay(5000)     # make window visible more 5 sec after execution completes
-
+  from graphicswithpython import boundaryfill, window, delay, color, circle, rectangle,triangle
+  
+  window(700,700)         #first make window to get output there
+  
+  #first draw object 
+  rectangle(250,350,140,100,color("white"))
+  circle(390,348,50,color("purple"))      
+  triangle(325,410,270,500,380,500,color("yellow"))
+  rectangle(200,300,100,100,color("red"))
+  # rectangle(250,350,140,100,color("white")) 
+  
+  #Flood Fill with 8 seed
+  boundaryfill(210,310,bordercolor=color("red"),newcolor=color("green"),seeds=8)  # upper rectangle
+  boundaryfill(390,348,bordercolor=color("purple"),newcolor=color("green"),seeds=8,radius=49)    #circle  *(MUST SPECIFY RADIUS IN CIRCLE ONLY)
+  # boundaryfill(315,380,bordercolor=color("white"),newcolor=color("green"),seeds=4)   # middle Rectangle (Here 4 seed is done , as it consist of inner circle ) 
+  boundaryfill(325,470,bordercolor=color("yellow"),newcolor=color("green"),seeds=8)   # triangle
+      
+  delay(5000)     # make window visible more 5 sec after execution completes
   ```
-  ![output of bresenhams algorith](https://media.tenor.com/images/34f3a3acc453b5e4cff7865be2c00372/tenor.gif)
+  <!-- ![output of bresenhams algorith](https://media.tenor.com/images/34f3a3acc453b5e4cff7865be2c00372/tenor.gif) -->
+  ![borderfill](https://bit.ly/3lcZK1g)
   
 
 
