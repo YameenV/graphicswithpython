@@ -10,10 +10,10 @@
 ## Overview
  > Graphic With Python (GWP) is a user-friendly and simpler way to practise and imply Computer Graphic Concept . It is better then graphics.h as GWP is faster & easy to implement. The Aim for this library is to make Computer Graphic Visualization easier and understandable by providing Fuction for each Method and support.
 
-  ![output of floodfill algorith](https://bit.ly/3lcZK1g)
-  ![output of bresenhams algorith](https://bit.ly/3FOkzaY)
-  ![output of bresenhams algorith](https://bit.ly/3p7y66D)
-  ![output of boundaryfill algorith](https://bit.ly/3HRA5Vv)
+  ![output of floodfill algorith](https://lh3.googleusercontent.com/AUTuh6XU-Ojo924X17CQoe467JMXD6GJ9R-wqdK0OfqC1tavQ71D2sz8GCm8sJQBW1V4GP7SwMLArfADKdrgu53bWP5KckgybXpgNVfIcG3ND3Z1rrEt36Le_OaNN40kxn5bwS8=w2400)
+  ![output of midpoint algorith](https://lh3.googleusercontent.com/zsKmDt1nJnVbC8tvw65MwTxFlETFHN1CjEipg1gP8rc8br_u7rZ-t4He-kQNOne6hr4e7M_co28XDiS1qBOHYkcm13nf4YMBSxa3vPYrKyNh2PM7D2De8_H3fQm9t4ySFC5xYtE=w2400)
+  ![output of bresenhams algorith](https://lh3.googleusercontent.com/oKS0O1HrHdMAOs2lrrmf8I2G-oofuaMXvV1rp1XwDdYTwHzaiascfGlyWkblxgqw_6OGq4X1yku6zd3QlbSgVWKtT05eo-St-pI4_eDfGMePVBiTCpDNdljGRXO7V5yNnea1njM=w2400)
+  ![output of boundaryfill algorith](https://lh3.googleusercontent.com/Rk1SjsMKObd2gHuwLosGbMpQS4sWGRBELAETM21RxvUWgZwQLJEEGSPLDHhs6vi_lrWdV6mzwW2_wFDeMfYJkHpFDvU3Z6rOQ48qrn_uVRW5pHTbNsylkFHekvFQDVgd2vkDVy4=w2400)
   
 
 # Installation
@@ -223,7 +223,7 @@ For Online IDE
   delay(5000)     # make window visible more 5 sec after execution completes
   ```
   <!-- ![output of bresenhams algorith](https://media.tenor.com/images/e49b7ff168026a1057c1c439fadea5be/tenor.gif) -->
-  ![ashutsh](gif/dda2%20(1).gif)
+  ![DDA](https://lh3.googleusercontent.com/vY4fQxNnM2K7kUguXabht4_WVelgY_AUGt8YOCjXfDVN638zZlcsPTfLNPqDaX0YB3TF0NX8FB48AqD9yj64I2nUD-VIWxawzXr1saOj8deHnS0Jx7ihZ3M3jD7KnaZpdRSTy_o=w2400)
 
 - ## Breshham
 
@@ -265,7 +265,7 @@ For Online IDE
     delay(5000)     # make window visible more 5 sec after execution completes
     ```
    <!-- ![output of bresenhams algorith](https://media.tenor.com/images/39fef84a82257c5772cf11ab47e9df03/tenor.gif)  -->
-   ![bresanhams](https://bit.ly/3FOkzaY)
+   ![bresanhams](https://lh3.googleusercontent.com/oKS0O1HrHdMAOs2lrrmf8I2G-oofuaMXvV1rp1XwDdYTwHzaiascfGlyWkblxgqw_6OGq4X1yku6zd3QlbSgVWKtT05eo-St-pI4_eDfGMePVBiTCpDNdljGRXO7V5yNnea1njM=w2400)
    
 
    
@@ -309,7 +309,7 @@ For Online IDE
   ```
   <!-- ![output of bresenhams algorith](https://media.tenor.com/images/2538a6b276cb738599653ee964840486/tenor.gif) -->
   <!-- ![midpoint](gif/midpoint2%20(1).gif) -->
-  ![midpoint](https://bit.ly/3p7y66D)
+  ![midpoint](https://lh3.googleusercontent.com/zsKmDt1nJnVbC8tvw65MwTxFlETFHN1CjEipg1gP8rc8br_u7rZ-t4He-kQNOne6hr4e7M_co28XDiS1qBOHYkcm13nf4YMBSxa3vPYrKyNh2PM7D2De8_H3fQm9t4ySFC5xYtE=w2400)
 - ## FloodFill  
   >Flood fill, also called seed fill, is an algorithm that determines and alters the area connected to a given node in a multi-dimensional array with some matching attribute.
   
@@ -373,7 +373,7 @@ For Online IDE
   
   ``` 
   <!-- ![output of bresenhams algorith](https://media.tenor.com/images/a37051dc07d5568d7aae2311f9d21264/tenor.gif) -->
-  ![floodfill](https://bit.ly/3HRA5Vv)
+  ![floodfill](https://lh3.googleusercontent.com/AUTuh6XU-Ojo924X17CQoe467JMXD6GJ9R-wqdK0OfqC1tavQ71D2sz8GCm8sJQBW1V4GP7SwMLArfADKdrgu53bWP5KckgybXpgNVfIcG3ND3Z1rrEt36Le_OaNN40kxn5bwS8=w2400)
 
 - ## Boundary Fill 
   > Boundary fill is the algorithm used frequently in computer graphics to fill a desired color inside a closed polygon having the same boundary color for all of its sides.
@@ -439,7 +439,7 @@ For Online IDE
   delay(5000)     # make window visible more 5 sec after execution completes
   ```
   <!-- ![output of bresenhams algorith](https://media.tenor.com/images/34f3a3acc453b5e4cff7865be2c00372/tenor.gif) -->
-  ![borderfill](https://bit.ly/3lcZK1g)
+  ![borderfill](https://lh3.googleusercontent.com/Rk1SjsMKObd2gHuwLosGbMpQS4sWGRBELAETM21RxvUWgZwQLJEEGSPLDHhs6vi_lrWdV6mzwW2_wFDeMfYJkHpFDvU3Z6rOQ48qrn_uVRW5pHTbNsylkFHekvFQDVgd2vkDVy4=w2400)
   
 
 

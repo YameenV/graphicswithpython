@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="GraphicswithPython",
-    version="0.0.10",
+    version="0.0.11",
     description="Graphic With Python (GWP) is a user-friendly and simpler way to practise and imply Computer Graphic Concept . It is better then graphics.h as GWP is faster & easy to implement. The Aim for this library is to make Computer Graphic Visualization easier and understandable by providing Fuction for each Method and support.",
     py_modules=["graphicswithpython"],
     package_dir={"": "src"},
